@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lucas Ruiz | CV</title>
+
+    <meta name="description" content="Currículum de Lucas Ruiz, estudiante de CFGS ASIX. Sistemas, redes, Linux, virtualización y bases de datos.">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" href="assets/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon.png">
+</head>
+
+<body>
+    
+<!--
+    Jerarquía semántica:
+    - h1: Nombre
+    - h2: Títulos de sección (Perfil, Experiencia, Formación, etc.)
+    - h3: Puestos, estudios y elementos dentro de cada sección
+    - Fechas con <time>
+
+    Estructura:
+    - header: cabecera del CV
+    - aside: barra lateral (contacto y habilidades)
+    - main: contenido principal
+    - section: bloques de contenido
+    - footer: pie de página
+
+    Extras de accesibilidad, seguridad, etc...:
+    - Imágenes con alt y loading="lazy"
+    - Enlaces con texto descriptivo
+    - target="_blank" con rel="noopener noreferrer"
+    - aria-label para accesibilidad
+    - favicon configurado
+    - Navegación con teclado (focus visible)
+-->
+
+
+    <header class="cv-header">
+        <h1>Lucas Ruiz</h1>
+        <h2>Estudiante CFGS ASIX</h2>
+    </header>
+    
+        <main class="layout">
+        
+            <aside class="sidebar" aria-label="Barra lateral con contacto y habilidades">
+            
+                <figure class="sidebar-photo">
+                    <img src="assets/foto-cara.jpeg" alt="Foto de Lucas Ruiz" loading="lazy">
+                </figure>
+            
+                <section class="sidebar-section">
+                    <h3 class="sidebar-title">CONTACTO</h3>
+                    <nav class="contact-nav">
+                        <ul class="contact-list">
+
+                            <li class="contact-item">
+                                <img class="contact-icon" src="assets/Teléfono.png" alt="Teléfono" loading="lazy">
+                                <a href="tel:+34616680824">+34 616 680 824</a>
+                            </li>
+
+                            <li class="contact-item">
+                                <img class="contact-icon" src="assets/Mail.png" alt="Mail" loading="lazy">
+                                <a href="mailto:lksruizg@gmail.com">lksruizg@gmail.com</a>
+                            </li>
+
+                            <li class="contact-item">
+                                <img class="contact-icon" src="assets/Ubicación.png" alt="Ubicación" loading="lazy">
+                                <a href="https://www.google.com/maps/search/?api=1&query=Cerdanyola+del+Vallès+Barcelona" target="_blank" rel="noopener noreferrer">Cerdanyola del Vallès</a>
+                            </li>
+
+                            <li class="contact-item">
+                                <img class="contact-icon" src="assets/Github.png" alt="GitHub" loading="lazy">
+                                <a href="https://github.com/Lucasruizg" target="_blank" rel="noopener noreferrer">Perfil de GitHub</a>
+                            </li>
+
+                        </ul>
+                    </nav>
+                </section>
+
+            
+                <section class="sidebar-section"> 
+                    <h3 class="sidebar-title">SOFT SKILLS</h3>
+                        <ul class="skills-list-Soft">
+                            <li class="skill-item">Soy proactivo y con ganas de trabajar</li>
+                            <li class="skill-item">Tengo una comunicación clara y escucha activa</li>
+                            <li class="skill-item">Tengo capacidad para resolver problemas bajo presión</li>
+                            <li class="skill-item">Trabajo en equipo y tengo una actitud positiva</li>
+                        </ul>
+                </section>
+
+                <section class="sidebar-section">
+                    <h3 class="sidebar-title">HARD SKILLS</h3>
+                        <ul class="skills-list">
+                            <li class="skill-item">Administración básica de Linux
+                                                    (usuarios, permisos, servicios)
+                            </li>
+                            <li class="skill-item">Virtualización (VirtualBox, VMs)</li>
+                            <li class="skill-item">Bases de datos MySQL</li>
+                            <li class="skill-item">HTML, CSS y PHP</li>
+                            <li class="skill-item">Git y repositorios</li>
+                        </ul>
+                </section>
+
+            </aside>
+       
+            <section class="content" aria-label="Contenido principal del currículum">
+
+                <section class="card">
+                    <h2 class="section-title">MI PERFIL</h2>
+                        <p>
+                            Estudiante de CFGS ASIX con formación en sistemas informáticos, redes y entornos Linux.
+                            Me caracterizo por ser una persona responsable, organizada y con gran capacidad de aprendizaje.
+                            He trabajado en proyectos de virtualización, despliegue de sistemas y desarrollo web básico,
+                            lo que me ha permitido adquirir una visión práctica del entorno IT.
+                            Me interesa especialmente el área de administración de sistemas y soporte técnico.
+                            Busco seguir creciendo profesionalmente en un entorno tecnológico donde pueda aplicar
+                            mis conocimientos y seguir formándome.
+                        </p>
+                </section>
+
+                <section class="card">
+                    <h2 class="section-title">EXPERIENCIA</h2>  
+                        <h3 class="section-item">ENTRENADOR DE FÚTBOL</h3>
+                            <p class="section-subitem">
+                                Mira-Sol · <time datetime="2024-09">Septiembre 2024</time> - Actualidad
+                            </p>
+
+                </section>
+
+                <section class="card">
+                    <h2 class="section-title">PROYECTOS</h2>
+
+                    <article class="project">
+                        <h3 class="section-item">Despliegue de sistemas con Clonezilla</h3>
+                        <p class="section-subitem">
+                            Clonación y despliegue de equipos Windows en máquinas virtuales
+                        </p>
+
+                        <p>
+                            Proyecto realizado en el CFGS ASIX donde configuré una máquina Windows base,
+                            la cloné con Clonezilla y la desplegué en varias máquinas virtuales para simular
+                            el entorno de una empresa.
+                        </p>
+
+                        <ul class="projects-list">
+                            <li><strong>Tecnologías:</strong> VirtualBox, Clonezilla, Windows 10</li>
+                            <li><strong>Qué demuestra:</strong> virtualización, despliegue de sistemas y administración IT</li>
+                        </ul>
+
+                        <p>
+                            <a href="assets/Practica Clonezilla.zip" download>
+                                Descargar proyecto (ZIP)
+                            </a>
+                        </p>
+                    </article>
+
+                    <article class="project">
+                        <h3 class="section-item">Página web dinámica con HTML, CSS y PHP</h3>
+                        <p class="section-subitem">
+                            Sitio web con maquetación responsive y funcionalidades básicas en servidor
+                        </p>
+
+                        <p>
+                            Proyecto realizado en el CFGS ASIX donde desarrollé una web con estructura semántica,
+                            estilos propios en CSS y lógica en PHP para procesar información de formularios y mostrarla
+                            en pantalla de forma ordenada.
+                        </p>
+
+                        <ul class="projects-list">
+                            <li><strong>Tecnologías:</strong> HTML5, CSS3, PHP</li>
+                            <li><strong>Qué demuestra:</strong> maquetación web, buenas prácticas, y programación básica backend</li>
+                        </ul>
+
+                        <p>
+                            <a href="assets/practica01_php.zip" download>
+                                Descargar proyecto (ZIP)
+                            </a>
+                        </p>
+                    </article>
+
+                    <article class="project">
+                        <h3 class="section-item">Pendrive MULTIBOOT para SysAdmin (M05 UF2)</h3>
+                        <p class="section-subitem">
+                            USB multiboot con herramientas de administración y múltiples ISOs (UEFI/BIOS)
+                        </p>
+
+                        <p>
+                            Proyecto del módulo M05 UF2 donde monté un pendrive MULTIBOOT con diferentes herramientas
+                            y sistemas operativos para poder arrancar, instalar y recuperar equipos. Se tuvo en cuenta
+                            el tipo de arranque del ordenador (UEFI/BIOS y Secure Boot) y se probó el funcionamiento
+                            en una máquina real.
+                        </p>
+                        <ul class="projects-list">
+                            <li><strong>Tecnologías:</strong> Ventoy (o herramienta elegida), ISOs Linux/Windows, herramientas de recuperación</li>
+                            <li><strong>Incluye:</strong> Hirens Boot, Clonezilla, Kali Linux, Arch Linux, Windows ISO y Linux (Ubuntu/Debian/CentOS)</li>
+                            <li><strong>Qué demuestra:</strong> preparación de herramientas de SysAdmin, arranque UEFI/BIOS, troubleshooting y despliegue</li>
+                        </ul>
+
+                        <p>
+                            <a href="assets/Practica multiboot.zip" download>
+                                Descargar proyecto (ZIP)
+                            </a>
+                        </p>
+                    </article>
+                </section>
+
+
+                <section class="card">
+                    <h2 class="section-title">FORMACIÓN</h2>
+                        <h3 class="section-item">GRADO SUPERIOR ASIX</h3>
+                            <p class="section-subitem">
+                                <time datetime="2025">2025</time> - Actualidad
+                            </p>
+                            <p>La Salle, Gracia</p>
+
+                        <h3 class="section-item">BACHILLERATO TECNOLÓGICO</h3>
+                            <p class="section-subitem">
+                                <time datetime="2022">2022</time> - <time datetime="2024">2024</time>
+                            </p>
+                            <p>La Farga, Mira-Sol</p>
+                </section>
+
+                <section class="card">
+                    <h2 class="section-title">IDIOMAS</h2>
+                        <ul class="languages-list">
+                            <li>ESPAÑOL - Nativo</li>
+                            <li>CATALÁN - Nativo</li>
+                            <li>INGLÉS - Nivel B2</li>
+                        </ul>
+                </section>
+        
+            </section>
+
+        </main>
+
+        <footer class="cv-footer">
+            <p>Lucas Ruiz - 2025</p>
+        </footer>
+
+</body>
+</html>
