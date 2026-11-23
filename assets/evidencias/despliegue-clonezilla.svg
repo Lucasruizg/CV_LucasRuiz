@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 340" role="img" aria-labelledby="title desc">
+  <title id="title">Despliegue de sistemas con Clonezilla</title>
+  <desc id="desc">Una máquina virtual Windows de referencia se convierte en una imagen de disco que después se restaura en dos máquinas virtuales de destino.</desc>
+  <rect width="780" height="340" fill="#0b1521"/>
+  <g fill="#173447" stroke="#66f5e9" stroke-width="2">
+    <rect x="38" y="122" width="182" height="94" rx="8"/>
+    <rect x="299" y="122" width="182" height="94" rx="8"/>
+    <rect x="560" y="67" width="182" height="82" rx="8"/>
+    <rect x="560" y="191" width="182" height="82" rx="8"/>
+  </g>
+  <g fill="none" stroke="#ffc66c" stroke-width="3">
+    <path d="M220 169h68m-8-7 8 7-8 7M481 169h32v-61h36m-8-7 8 7-8 7M513 169v63h36m-8-7 8 7-8 7"/>
+  </g>
+  <g fill="#f0f8ff" font-family="sans-serif" font-size="19" text-anchor="middle">
+    <text x="390" y="40" font-size="24">Despliegue con Clonezilla</text>
+    <text x="129" y="161">VM Windows</text><text x="129" y="189">de referencia</text>
+    <text x="390" y="161">Imagen de disco</text><text x="390" y="189">Clonezilla</text>
+    <text x="651" y="114">VM de destino A</text>
+    <text x="651" y="238">VM de destino B</text>
+    <text x="390" y="310" fill="#ffc66c">VirtualBox · laboratorio de ASIX</text>
+  </g>
+</svg>
