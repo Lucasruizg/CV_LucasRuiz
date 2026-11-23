@@ -484,6 +484,7 @@ a:hover {
   }
 
   .layout {
+    width: 100%;
     max-width: none;
     margin: 0;
   }
@@ -503,15 +504,20 @@ a:hover {
     color: #000;
   }
 
-  .card, 
+  .card,
   .sidebar-section {
-  background: #fff;
-  border: 1px solid #000;
+    background: #fff;
+    border: 1px solid #000;
   }
 
-  a::after {
-  content: " (" attr(href) ")";
-  font-size: 0.8em;
+  .section-title, .section-item {
+    break-after: avoid;
+  }
+
+  a[href^="https://"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    overflow-wrap: anywhere;
   }
 
 }
